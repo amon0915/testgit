@@ -3,7 +3,7 @@ from flask import render_template
 
 app = Flask(__name__)
 app.config.update(
-    SERVER_NAME='0.0.0.0:80'
+    SERVER_NAME='45.78.36.201:80'
 )
 @app.route('/<name>')
 def hello_world(name):
